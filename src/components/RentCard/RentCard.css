@@ -1,0 +1,43 @@
+.Booking {
+    font-family: 'Modak', sans-serif;
+    font-size: 2em;
+}
+
+.ModalBooking {
+    background-color: #d447316a;
+}
+
+.ModalBooking .modal-content {
+    background-color: #d44731;
+}
+
+.myContainerRent {
+    display: flex;
+    align-content: space-between;
+    padding-right: 30px;
+    border-radius: 8px;
+}
+
+.DetailsOwner {
+    padding: 30px;
+}
+
+.overlayImg {
+    height: 250px;
+    width: 500px;
+    border: 7px solid black;
+    border-radius: 20px;
+}
+
+.NameOwner {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bolder;
+}
+
+.Dategame {
+    font-family: 'Open Sans', sans-serif, bold;
+    font-weight: bolder;
+    color: black;
+}

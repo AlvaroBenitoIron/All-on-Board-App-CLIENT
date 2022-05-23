@@ -1,0 +1,45 @@
+.Navbar {
+    background-color: #fbcd3800;
+}
+
+.Navbar2 {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+
+.Register {
+    justify-content: flex-end;
+}
+
+.ModalSignup {
+    background-color: #fbcd3869;
+}
+
+.ModalSignup .modal-content {
+    background-color: #fbce38;
+}
+
+.Signup {
+    font-family: 'Modak', sans-serif;
+    font-size: 2em;
+}
+
+.ModalLogin {
+    background-color: #e5acb78e;
+}
+
+.ModalLogin .modal-content {
+    background-color: #e5acb7;
+}
+
+.Login {
+    font-family: 'Modak', sans-serif;
+    font-size: 2em;
+}
+
+.NavBarText {
+    font-family: 'Modak', sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    color: #d44731;
+}

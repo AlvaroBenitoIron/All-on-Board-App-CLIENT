@@ -1,0 +1,25 @@
+.CommentTitle{
+    font-family: 'Modak',sans-serif;
+    font-size: 1.9em;
+    font-weight: lighter;
+}
+
+.commentCard {
+    border: 7px solid #d44731;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.2);
+}
+
+.hrComments {
+    color: #d44731;
+}
+
+.commentDate {
+    color: rgb(196, 196, 196);
+}
+
+.commentTop{
+    display: flex;
+    justify-content: space-between;
+}

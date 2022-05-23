@@ -1,0 +1,56 @@
+.SubBooking {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .BookingText {
+    padding: 20px 0px 20px 0px;
+} */
+
+.BtnBooking {
+    margin: 20px 0px 20px 0px;
+}
+
+/* .Calendar {
+   
+} */
+
+/* .CalendarMonthGrid {
+    background-color: #d44731;
+}
+
+.DayPicker_transitionContainer {
+    background-color: #d44731;
+}
+
+.CalendarMonth {
+    background-color: #d44731;
+} */
+
+.CalendarDay {
+
+    background-color: #d44731;
+}
+
+.CalendarMonth_caption {
+    font-family: 'Modak', sans-serif;
+    font-size: 2em;
+    padding-top: 70px;
+}
+
+.CalendarMonth_caption {
+    font-weight: lighter;
+    padding-top: 90px;
+}
+/* 
+.DayPicker_weekHeader {
+    padding-top: 70px;
+} */
+
+.CalendarDay__blocked_calendar {
+    background-color: #d447315a;
+}
+
+.DayPicker_transitionContainer {
+    width: 20px;
+    height: 20px;
+}

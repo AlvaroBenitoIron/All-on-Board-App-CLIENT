@@ -1,0 +1,91 @@
+.MatchesList {
+    padding: 10px;
+}
+
+.MatchesListTitle {
+    font-family: 'Modak', sans-serif;
+    color: black;
+    font-size: 5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.MatchesListContainer {
+    padding: 10px;
+}
+
+.CreateMatch {
+    box-shadow: 0px 7px 13px rgba(96, 239, 115, 0.222);
+    border: 4px solid rgb(96, 239, 116);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.CreateMatch {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hrCreateMatch {
+    color: rgb(96, 239, 116);
+    height: 4px;
+}
+
+.CreateMatchTitle {
+    font-family: 'Modak', sans-serif;
+    font-size: 1em;
+    padding: 20px;
+}
+
+.ModalMatch {
+    background-color: rgba(96, 239, 115, 0.393);
+}
+
+.ModalMatch .modal-content {
+    background-color: rgb(96, 239, 116);
+}
+
+.CreateRent {
+    font-family: 'Modak',sans-serif;
+    font-size: 3em;
+}
+
+/* 
+.ButtonCreateMatchtton {
+    --green: #1BFD9C;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%, transparent 60%, rgba(27, 253, 156, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+}
+
+.ButtonCreateMatch:hover {
+    color: #82ffc9;
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+}
+
+.ButtonCreateMatch:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%, rgba(27, 253, 156, 0.1) 60%, transparent 100%);
+}
+
+.ButtonCreateMatch:hover:before {
+    transform: translateX(15em);
+} */

@@ -1,0 +1,26 @@
+.AdminUsersList {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.AdminUsersTitle {
+    font-family: 'Modak', sans-serif;
+    font-size: 3em;
+}
+
+.usersList {
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.usersList{
+    justify-content: space-between;
+}

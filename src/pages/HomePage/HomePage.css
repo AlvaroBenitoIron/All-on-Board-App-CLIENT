@@ -1,0 +1,63 @@
+.BackgroundHome {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.WelcomeHome {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding: 520px;
+}
+
+.BoardgameCard {
+    width: 280px;
+    height: 500px;
+    margin: 100px 40px 100px 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 7px solid #ccddc7;
+}
+
+.BoardgameImageCarrusel {
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.BoardgameTitle {
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    margin: 20px;
+}
+
+.btnCarrousel {
+    background-color: #ccddc7;
+}
+
+.EventsHome {
+    padding: 50px;
+}
+
+.EventsTitle {
+    font-family: 'Modak', sans-serif;
+    color: black;
+    margin: 20px;
+    font-size: 6em;
+}
+
+.EventsCards {
+    width: 400px;
+    height: 150px;
+}
+
+.Events2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.EventsHomePadding {
+    margin-bottom: 50px;
+}
+
+.EventsHome {
+    margin-bottom: 50px;
+}

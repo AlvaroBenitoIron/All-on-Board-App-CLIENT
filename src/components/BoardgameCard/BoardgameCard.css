@@ -1,0 +1,89 @@
+.BoardgameCardCarrousel {
+    margin-bottom: 40px;
+}
+
+.BoardgameCardCarrousel .image {
+    height: 350px;
+    object-fit: cover;
+}
+
+.LinkBoardGame {
+    color: black;
+}
+
+.BoardgameCardList {
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px 1px 13px #003cff4e;
+    cursor: pointer;
+    transition: all 120ms;
+    display: flex;
+    background: #fff;
+    padding: 1em;
+    padding-bottom: 3.4em;
+    align-content: space-between;
+    margin: 10px;
+}
+
+.BoardgameCardList::after {
+    content: "+";
+    padding-top: 0.5em;
+    padding-left: 1.25em;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    background: #022cb7;
+    color: #fff;
+    height: 2.5em;
+    width: 100%;
+    transition: all 80ms;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0.1em;
+}
+
+.BoardgameCardList .text-title-list {
+    font-family: 'Modak', sans-serif;
+    font-weight: lighter;
+    justify-content: left;
+    padding-right: 2em;
+    left: 1em;
+    font-size: 2.2em;
+    bottom: 1.875em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: black;
+}
+
+.BoardgameCardList .Details {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    bottom: 0.25em;
+    text-transform: uppercase;
+}
+
+.BoardgameCardList:hover::after {
+    bottom: 0;
+}
+
+.BoardgameCardList:active {
+    transform: scale(0.98);
+}
+
+.BoardgameCardList:active::after {
+    height: 3.125em;
+}
+
+.text {
+    max-width: 100px;
+}
+
+.imageList {
+    background: rgb(241, 241, 241);
+    width: 365px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    object-fit: cover;
+}
